@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Problem Statement-1}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Problem statement}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Assumptions}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Program structure}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Algorithm and Implementation}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Input and output format}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Test cases}{3}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Difficulties/Issues faced}{4}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Screenshots}{4}{subsection.1.8}
+\contentsline {section}{\numberline {2}Problem Statement-2}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Problem statement}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Assumptions}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Program structure}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Algorithm and Implementation}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Input and output format}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Test cases}{7}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Difficulties/Issues faced}{7}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Screenshots}{7}{subsection.2.8}
+\contentsline {section}{\numberline {3}Appendix}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Appendix-A Code for ps1}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Appendix-B Code for ps2}{9}{subsection.3.2}

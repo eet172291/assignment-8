@@ -49,7 +49,14 @@ dim= [ [ None for y in range( m ) ] for x in range( n ) ]
 for i in range(n):
 	for j in range(m):
 		dim[i][j]= get_dim(cell, i, j)
+large= dim[0][0]
+sec_large= dim[0][0]
+for i in range(n):
+	for j in range(m):
+		if dim[i][j]>= large:
+			sec_large= large			
+			large= dim[i][j]
 
-print(dim)
+print(large, sec_large)		
 
 			
