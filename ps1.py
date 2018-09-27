@@ -6,6 +6,25 @@
 
 import numpy as np
 
+def get_dim(cell, i, j):
+	x= [-1, 0, 1, 0]
+	y= [0, -1, 0, 1]
+	dim=-1
+	n, m = np.array(cell).shape
+	if cell[i][j]== 'D':
+		return dim
+	else:
+		dim=1
+	num=1
+	while True:
+		for search in range(4):
+			newi= i+num*x[search]
+			newj= j+num*y[search]
+			if newi<0 or newi >=n or newj<0 or newj >=m or cell[newi][newj]== 'D':
+				return dim
+		dim= dim+4
+		num= num+1
+
 n= int(input("Enter n: "))
 m= int(input("Enter m: "))
 if n<2 or n>105 or m<2 or m>105:
@@ -25,4 +44,12 @@ for i in range(n):
 			print("Wrong input")
 			exit()
 
-	
+dim= [ [ None for y in range( m ) ] for x in range( n ) ]
+
+for i in range(n):
+	for j in range(m):
+		dim[i][j]= get_dim(cell, i, j)
+
+print(dim)
+
+			
